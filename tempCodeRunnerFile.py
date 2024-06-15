@@ -1,1 +1,4 @@
-find_next_greater_element_index
+    
+    # while picked_projects < k:
+        
+    
