@@ -1,1 +1,0 @@
-needle_p < len(needle)
