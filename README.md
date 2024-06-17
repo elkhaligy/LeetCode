@@ -2,6 +2,7 @@
 
 This repository contains my solutions to LeetCode problems. Each problem is solved in Python.
 
+My LeetCode Profile: https://leetcode.com/u/elkhaligy/
 ## Structure
 
 The files are organized by problem number followed by its name.
@@ -10,11 +11,8 @@ The files are organized by problem number followed by its name.
 
 (X) means attempted
 
+(R) means refactoring has been done
 ## Solved Problems
-
-Certainly! Here's the problems section for your README.md file:
-
-## Problems
 
 1. Two Sum.py  
 100. (A) Same Tree.py  
