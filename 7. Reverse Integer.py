@@ -22,10 +22,10 @@ def reverse(x: int) -> int:
     return answer
 
 def reverse_sol2(x: int) -> int:
-    negative = False
+    negative_flag = False
 
     if x < 0:
-        negative = True
+        negative_flag = True
         x = str(x)[1:]
     else:
         x = str(x)
@@ -35,6 +35,6 @@ def reverse_sol2(x: int) -> int:
     if int(x) > (2 ** 31) -1 or int(x) < - (2 ** 31):
         return 0
     
-    return -1 * int(x) if negative else int(x)
+    return -1 * int(x) if negative_flag else int(x)
 print(reverse(x = -123))
             
