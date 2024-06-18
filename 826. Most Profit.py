@@ -38,4 +38,4 @@ def maxProfitAssignment_opt_binarysearch(difficulty: list[int], profit: list[int
         
     return max_profit
 
-print(maxProfitAssignment_opt(difficulty =[5,50,92,21,24,70,17,63,30,53], profit = [68,100,3,99,56,43,26,93,55,25], worker = [96,3,55,30,11,58,68,36,26,1]))
+print(maxProfitAssignment_opt_binarysearch(difficulty =[5,50,92,21,24,70,17,63,30,53], profit = [68,100,3,99,56,43,26,93,55,25], worker = [96,3,55,30,11,58,68,36,26,1]))
