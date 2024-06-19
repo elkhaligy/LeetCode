@@ -1,38 +1,26 @@
 def minDays_bruteforce(bloomDay: list[int], m: int, k: int) -> int:
-    if m * k > len(bloomDay):
+    n = len(bloomDay)
+    if m * k > n:
         return -1
     
-    temp_lst = sorted(bloomDay)
-    temp_lst2 = []
+    sorted_bloomDay = sorted(bloomDay)
+    sorted_unq_bloomDay = []
     temp_set = set()
-    for day in temp_lst:
+
+    for day in sorted_bloomDay:
         if day not in temp_set:
-            temp_lst2.append(day)
+            sorted_unq_bloomDay.append(day)
         temp_set.add(day)
 
-    #print(temp_lst2) 
-    bouq_count = 0
-    cons = 0
-    for day in temp_lst2:
-        cons = 0
-        for i in range(len(bloomDay)):
-            if bloomDay[i] == day:
-                bloomDay[i] = 'X'
-        for i in range(len(bloomDay)):
-            if bloomDay[i] == 'X':
-                cons += 1
-            else:
-                cons = 0
-            if cons == k:
-                bouq_count += 1
-                cons = 0
-        if bouq_count >= m:
-            return day
-        else:
-            bouq_count = 0
-    
-    return -1
+    answer = float('inf')
 
+    for day in sorted_unq_bloomDay:
+        bouq_num = get_bouq_num(bloomDay, day, k)
+
+        if bouq_num >= m:
+            answer = min(answer, day)
+
+    return -1 if answer == float('inf') else answer
 
 def get_bouq_num(bloomDay: list[int], mid: int, k: int) -> int:
     conseq_flowers = 0
@@ -48,6 +36,7 @@ def get_bouq_num(bloomDay: list[int], mid: int, k: int) -> int:
             conseq_flowers = 0
 
     return bouq_num
+
 def minDays_binarysearch(bloomDay: list[int], m: int, k: int) -> int:
     n = len(bloomDay)
 
@@ -69,4 +58,4 @@ def minDays_binarysearch(bloomDay: list[int], m: int, k: int) -> int:
             left = mid + 1
 
     return answer
-print(minDays_binarysearch(bloomDay =[7,7,7,7,12,7,7], m = 2, k = 3))
+print(minDays_bruteforce(bloomDay =[7,7,7,7,12,7,7], m = 2, k = 3))
