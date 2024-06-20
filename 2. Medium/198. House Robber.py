@@ -23,15 +23,14 @@ def rob_dp_in_place(nums: list[int]) -> int:
 
 def rob_recursive(nums: list[int]) -> int:
     n = len(nums)
+
     def rec(index: int):
         if index < 0:
             return 0
         if index == 0:
             return nums[0]
-
         pick = nums[index] + rec(index - 2)
         no_pick = rec(index - 1)
-
         ans = max(pick, no_pick)
         return ans
 
@@ -40,6 +39,7 @@ def rob_recursive(nums: list[int]) -> int:
 def rob_recursive_memoization(nums: list[int]) -> int:
     n = len(nums)
     dp_dict = {}
+
     def rec(index: int):
         if index < 0:
             return 0
@@ -51,7 +51,6 @@ def rob_recursive_memoization(nums: list[int]) -> int:
         no_pick = rec(index - 1)
         ans = max(pick, no_pick)
         dp_dict[index] = ans
-        
         return ans
 
     return rec(n - 1)
