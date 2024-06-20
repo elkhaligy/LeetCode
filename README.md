@@ -3,6 +3,11 @@
 This repository contains my solutions to LeetCode problems. Each problem is solved in Python.
 
 My LeetCode Profile: https://leetcode.com/u/elkhaligy/
+
+## My Badges
+![LeetCode 50-Day Challenge](https://i.imgur.com/HRiF5xa.gif)
+
+
 ## Structure
 
 The files are organized by problem number followed by its name.
@@ -16,3 +21,4 @@ The files are organized by problem number followed by its name.
 ## Usage
 
 Feel free to browse the solutions and learn from them.
+
