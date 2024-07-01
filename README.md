@@ -5,7 +5,12 @@ This repository contains my solutions to LeetCode problems. Each problem is solv
 My LeetCode Profile: https://leetcode.com/u/elkhaligy/
 
 ## My Badges
+![LeetCode June 2024 DCC Badge](https://i.imgur.com/rd8F0yV.gif)
+
 ![LeetCode 50-Day Challenge](https://i.imgur.com/HRiF5xa.gif)
+
+
+
 
 
 ## Structure
