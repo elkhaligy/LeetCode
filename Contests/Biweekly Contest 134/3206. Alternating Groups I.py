@@ -57,9 +57,9 @@ def numberOfAlternatingGroups_sliding_window_2(colors: list[int]) -> int:
             transitions -= 1
         if colors[(right % n) - 1] != colors[(right) % n]:
             transitions += 1
-
         if transitions == 2:
             groups += 1
+            
         right += 1
         left += 1
     return groups

@@ -1,3 +1,9 @@
+# Sliding window has two variants
+# First: you have left and right pointers which are the start and end of your window 
+# and you use while loop with the left or right one
+
+# Second: you have a start which is the start of your window, you use that in a for loop
+# then left and right are calculated according to this start index
 def numberOfAlternatingGroups_sliding_window_1(colors: list[int], k: int) -> int:
     n = len(colors)
     groups = 0
@@ -41,7 +47,6 @@ def numberOfAlternatingGroups_sliding_window_2(colors: list[int], k: int) -> int
     
     left += 1
     right += 1
-
     while left < n:
         if colors[left - 1] != colors[left]:
             transitions -= 1
@@ -49,21 +54,11 @@ def numberOfAlternatingGroups_sliding_window_2(colors: list[int], k: int) -> int
             transitions += 1
         if transitions == k - 1:
             groups += 1
+
         left += 1
         right += 1
-    return groups
-    # for start in range(1, n):
-    #     left = (start - 1) % n
-    #     right = (start + k - 2) % n
 
-    #     if colors[left] != colors[start % n]:
-    #         curr_trans -= 1
-    #     if colors[right] != colors[(start + k - 1) % n]:
-    #         curr_trans += 1
-        
-    #     if curr_trans == k - 1:
-    #         groups += 1
-    
-    # return groups
+    return groups
+
 
 print(numberOfAlternatingGroups_sliding_window_2(colors = [0,1,0,0,1,0,1], k = 6))
