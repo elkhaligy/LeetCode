@@ -27,6 +27,18 @@ def longestCommonSubsequence(text1: str, text2: str) -> int:
     
     return max(longest1, longest2)
 
+def longestCommonSubsequence_DB(text1: str, text2: str) -> int:
+    row, col = len(text2), len(text1)
+    dp = [[0 for _ in range(col + 1)] for _ in range(row + 1)]
+    
+    for i in range(1, row + 1):
+        for j in range(1, col + 1):
+            if text1[j - 1] == text2[i - 1]:
+                dp[i][j] = 1 + dp[i - 1][j - 1]
+            else:
+                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])    
+    
+    return dp[-1][-1]
 
 
-print(longestCommonSubsequence(text1 = "ylqpejqbalahwr", text2 = "yrkzavgdmdgtqpg" ))
+print(longestCommonSubsequence_DB(text1 = "abcde", text2 = "ace" ))
