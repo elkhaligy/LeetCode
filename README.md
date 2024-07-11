@@ -36,49 +36,12 @@ LeetCode/
 ## Usage
 Feel free to browse the solutions and learn from them. Each file is named according to the problem number and title for easy reference.
 
-
-## Contact
-For any questions you can message me on my [LinkedIn](https://www.linkedin.com/in/shehabelkhaligy/)
-
 ## Badges
-![LeetCode June 2024 DCC Badge](https://i.imgur.com/rd8F0yV.gif)
-![LeetCode 50-Day Challenge Badge](https://i.imgur.com/HRiF5xa.gif)
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a clear overview of the repository's purpose, structure, and usage, encouraging contributions and providing a link to the user's LeetCode profile.
-# LeetCode Solutions
-
-This repository contains my solutions to LeetCode problems. Each problem is solved in Python.
-
-My LeetCode Profile: https://leetcode.com/u/elkhaligy/
-
-## My Badges
-![LeetCode June 2024 DCC Badge](https://i.imgur.com/rd8F0yV.gif)
-
-![LeetCode 50-Day Challenge](https://i.imgur.com/HRiF5xa.gif)
 <p align="center">
   <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
   <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
 </p>
 
-
-
-
-## Structure
-
-The files are organized by problem number followed by its name.
-
-(H) means a comment hint is available
-
-(X) means attempted
-
-(R) means refactoring has been done
-
-## Usage
-
-Feel free to browse the solutions and learn from them.
+## Contact
+For any questions you can message me on my [LinkedIn](https://www.linkedin.com/in/shehabelkhaligy/)
 
