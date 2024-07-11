@@ -44,4 +44,15 @@ def minOperations_sol3(logs: list[str]) -> int:
     
     return ans
 
-print(minOperations_sol3(logs = ["./","wz4/","../","mj2/","../","../","ik0/","il7/"]))
+def minOperations_sol4(logs: list[str]) -> int:
+    stack = []
+    for log in logs:
+        if log == "../":
+            if stack:
+                stack.pop()
+        elif log != "./":
+            stack.append(log)
+
+    
+    return len(stack)
+print(minOperations_sol4(logs = ["./","wz4/","../","mj2/","../","../","ik0/","il7/"]))
