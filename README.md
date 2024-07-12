@@ -46,10 +46,10 @@ Feel free to browse the solutions and learn from them. Each file is named accord
 </p>
 
 ## Todo
-- [ ] Categorize problems by month and week
-  - [ ] Easy
-  - [ ] Medium
-  - [ ] Hard  
+- [x] ~~Categorize problems by month and week~~
+  - [x] ~~Easy~~
+  - [x] ~~Medium~~
+  - [x] ~~Hard~~ 
 - [ ] Finish and push attachements folder
 
 ## Contact
