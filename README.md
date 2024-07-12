@@ -28,8 +28,11 @@ LeetCode/
 │   ├── problem2.py
 │   └── ...
 └── Contests/
-    ├── contest1.py
-    ├── contest2.py
+    ├── Contest1
+        ├── problem1.py
+        ├── problem2.py
+        └── ...
+    ├── Contest2
     └── ...
 ```
 
@@ -41,6 +44,13 @@ Feel free to browse the solutions and learn from them. Each file is named accord
   <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
   <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
 </p>
+
+## Todo
+- [ ] Categorize problems by month and week
+  - [ ] Easy
+  - [ ] Medium
+  - [ ] Hard  
+- [ ] Finish and push attachements folder
 
 ## Contact
 For any questions you can message me on my [LinkedIn](https://www.linkedin.com/in/shehabelkhaligy/)
