@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Welcome to my LeetCode Solutions repository! This repository contains solutions to various LeetCode problems, implemented in Python.
+This repository contains solutions to various LeetCode problems, implemented in Python.
 
 ## My LeetCode Profile
 Check out my [LeetCode profile](https://leetcode.com/u/elkhaligy/) for more details and statistics.
