@@ -1,6 +1,12 @@
-# LeetCode Solutions
+![leetcode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
 This repository contains solutions to various LeetCode problems, implemented in Python.
+
+## Badges
+<p align="center">
+  <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
+  <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
+</p>
 
 ## My LeetCode Profile
 Check out my [LeetCode profile](https://leetcode.com/u/elkhaligy/) for more details and statistics.
@@ -16,16 +22,25 @@ The repository is organized into folders based on the difficulty level of the pr
 ```
 LeetCode/
 ├── 1. Easy/
-│   ├── problem1.py
-│   ├── problem2.py
+│   ├── Month 1/
+|       ├── Week 1/
+            ├── problem1/
+                ├── problem1.py
+                ├── problem1.md
+                └── problem1.png
+            ├── problem2.py
+            └──
+        ├── Week 2/
+        └── ...
+│   ├── Month 2/
 │   └── ...
 ├── 2. Medium/
-│   ├── problem1.py
-│   ├── problem2.py
+│   ├── Month 1/
+│   ├── Month 2/
 │   └── ...
 ├── 3. Hard/
-│   ├── problem1.py
-│   ├── problem2.py
+│   ├── Month 1/
+│   ├── Month 2/
 │   └── ...
 └── Contests/
     ├── Contest1
@@ -39,18 +54,14 @@ LeetCode/
 ## Usage
 Feel free to browse the solutions and learn from them. Each file is named according to the problem number and title for easy reference.
 
-## Badges
-<p align="center">
-  <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
-  <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
-</p>
+
 
 ## Todo
 - [x] ~~Categorize problems by month and week~~
   - [x] ~~Easy~~
   - [x] ~~Medium~~
   - [x] ~~Hard~~ 
-- [ ] Finish and push attachements folder
+- [x] ~~Finish and push attachements~~
 
 ## Contact
 For any questions you can message me on my [LinkedIn](https://www.linkedin.com/in/shehabelkhaligy/)
