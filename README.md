@@ -1,5 +1,7 @@
-![leetcode](https://leetcode.com/static/images/LeetCode_Sharing.png)
-
+<p align="center">
+  <img src="https://leetcode.com/static/images/LeetCode_Sharing.png" alt="Badge 1" />
+  
+</p>
 This repository contains solutions to various LeetCode problems, implemented in Python.
 
 ## Badges
