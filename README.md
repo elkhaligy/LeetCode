@@ -4,10 +4,19 @@
 </p>
 This repository contains solutions to various LeetCode problems, implemented in Python.
 
-## Badges
+## My Badges
 <p align="center">
-  <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
+  <b>Jul 2024 Leedcoding Challange</b>
+  <br>
+  <img src="https://i.imgur.com/h4VSyeg.gif" alt="Badge 2" width="100"/>
+  <br>
+  <b>50 Days 2024</b>
+  <br>
   <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
+  <br>
+  <b>Jun 2024 Leetcoding Challenge</b>
+  <br>
+<img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
 </p>
 
 ## My LeetCode Profile
