@@ -1,4 +1,5 @@
 class Solution:
+    # This is a brute force solution
     def rangeSum(self, nums: list[int], n: int, left: int, right: int) -> int:
         # Prefix sum array
         prefix_list = [0]
