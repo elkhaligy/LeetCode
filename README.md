@@ -6,9 +6,13 @@ This repository contains solutions to various LeetCode problems, implemented in 
 
 ## My Badges
 <p align="center">
+  <b>100 Days Badge 2024</b>
+  <br>
+  <img src="https://i.imgur.com/oRENGzh.gif" alt="Badge 4" width="100"/>
+  <br>
   <b>Jul 2024 Leedcoding Challange</b>
   <br>
-  <img src="https://i.imgur.com/h4VSyeg.gif" alt="Badge 2" width="100"/>
+  <img src="https://i.imgur.com/h4VSyeg.gif" alt="Badge 3" width="100"/>
   <br>
   <b>50 Days 2024</b>
   <br>
