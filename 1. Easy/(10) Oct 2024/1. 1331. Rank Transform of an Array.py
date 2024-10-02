@@ -1,4 +1,7 @@
-def arrayRankTransform(arr: list[int]) -> list[int]:
+def arrayRankTransform_nlogn(arr: list[int]) -> list[int]:
+    if not arr:
+        return []
+    
     # Dictionary {number : rank}
     ranks_dict = {}
     sorted_arr = sorted(arr)
@@ -12,4 +15,7 @@ def arrayRankTransform(arr: list[int]) -> list[int]:
 
     return [ranks_dict[num] for num in arr]
 
-print(arrayRankTransform(arr = [100,100,100]))
+
+
+
+print(arrayRankTransform_n(arr = [1,2,3,4,-1]))
