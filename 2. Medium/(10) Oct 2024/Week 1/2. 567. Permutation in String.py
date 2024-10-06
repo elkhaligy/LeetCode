@@ -1,3 +1,5 @@
+
+# TODO Implement the brute force solution
 def checkInclusion(s1: str, s2: str) -> bool:
     # Input: s1 = "ab", s2 = "eidbaooo"
     # If we sorted s1 = "ab", s2 = "eidbaooo"
