@@ -23,4 +23,29 @@ def romanToInt(s: str) -> int:
         prev = c
     return ans
 
-print(romanToInt('IV'))
+def romanToInt_greedy(s: str):
+    map = {
+        'I' : 1,
+        'V' : 5,
+        'X' : 10,
+        'L' : 50,
+        'C' : 100,
+        'D' : 500,
+        'M' : 1000
+    }
+    answer = 0
+    prev_val = 0
+
+    for char in s:
+        curr_val = map[char]
+
+        if curr_val > prev_val:
+            answer -= prev_val
+            answer += (curr_val - prev_val)
+        else:
+            answer += curr_val
+
+        prev_val = curr_val
+
+    return answer
+print(romanToInt_greedy('IV'))
