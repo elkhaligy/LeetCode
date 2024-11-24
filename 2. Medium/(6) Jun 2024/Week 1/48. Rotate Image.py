@@ -25,4 +25,21 @@ def rotate_inplace(matrix: list[list[int]]) -> None:
 
     # matrix = ans
 
-rotate_inplace(matrix = [[1,2,3],[4,5,6],[7,8,9]])
+
+
+def transpose_in_place(matrix):
+    n = len(matrix)
+    for i in range(n):
+        for j in range(i + 1, n):  # Only swap elements above the main diagonal
+            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+    return matrix
+
+# Example
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+transpose_in_place(matrix)
+print(matrix)

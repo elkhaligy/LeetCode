@@ -33,4 +33,26 @@ def moveZeroes_inplace(nums: list[int]) -> None:
     print(nums)
 
     pass
-print(moveZeroes_inplace(nums = [1,1,0,3,12]))
+
+
+def moveZeroes_inplace_2(nums: list[int]) -> None:
+    if len(nums) <= 1:
+        return nums
+
+    start = 0
+    end = 1
+
+    while end < len(nums):
+        if nums[start] == 0 and nums[end] != 0:
+            nums[end], nums[start] = nums[start], nums[end]
+            start += 1
+            end += 1
+        elif nums[start] == 0 and nums[end] == 0:
+            end += 1
+        else:
+            start += 1
+            end += 1
+
+    return nums
+
+print(moveZeroes_inplace_2(nums = [0,1,0,3,12]))
