@@ -6,13 +6,21 @@ This repository contains solutions to various LeetCode problems, implemented in 
 
 ## My Badges
 <p align="center">
-  <b>(LATEST) Sep 2024 Leetcoding Challange</b>
+  <b>200 Days 2024</b>
   <br>
-  <img src="https://i.imgur.com/A1MH5sU.gif" alt="Badge 4" width="100"/>
+  <img src="https://i.imgur.com/jrCBSMj.gif" alt="Badge 8" width="100"/>
+  <br>
+  <b>Oct 2024 Leetcoding Challange</b>
+  <br>
+  <img src="https://i.imgur.com/nDaHYbD.gif" alt="Badge 7" width="100"/>
+  <br>
+  <b>Sep 2024 Leetcoding Challange</b>
+  <br>
+  <img src="https://i.imgur.com/A1MH5sU.gif" alt="Badge 6" width="100"/>
   <br>
   <b>Aug 2024 Leetcoding Challange</b>
   <br>
-  <img src="https://i.imgur.com/bz3AW66.gif" alt="Badge 4" width="100"/>
+  <img src="https://i.imgur.com/bz3AW66.gif" alt="Badge 5" width="100"/>
   <br>
   <b>100 Days Badge 2024</b>
   <br>
