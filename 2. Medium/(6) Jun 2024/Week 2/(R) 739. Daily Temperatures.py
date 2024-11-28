@@ -91,4 +91,19 @@ def dailyTemperatures_nextgreaterelement_refactoring(temperatures: list[int]) ->
         return result
     
     return find_next_greater_element_index(temperatures)
-print(dailyTemperatures_nextgreaterelement_refactoring([73,74,75,71,69,72,76,73]))
+
+
+def dailyTemperatures_practise1(temperatures: list[int]) -> list[int]:
+    # Monotonic Decreasing Stack
+    monoStack = []
+    results = [0] * len(temperatures)
+
+    for i in range(len(temperatures)):
+        while monoStack and temperatures[i] > monoStack[-1][0]:
+            results[monoStack[-1][1]] = i - monoStack[-1][1]
+            monoStack.pop()
+            
+        monoStack.append((temperatures[i], i))
+    
+    return results
+print(dailyTemperatures_optimized([73,74,75,71,69,72,76,73]))
