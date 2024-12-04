@@ -8,4 +8,13 @@ def addSpace(s: str, spaces: list[int]):
         
     return newStr
 
-print(addSpace(s = "LeetcodeHelpsMeLearn", spaces = [8,13,15]))
+def addSpaceSol2(s: str, spaces: list[int]):
+    newStr = ""
+    curIndex = 0
+    for spaceIndex in spaces:
+        newStr += s[curIndex:spaceIndex] + " "
+        curIndex = spaceIndex
+    newStr += s[curIndex:]
+        
+    return newStr
+print(addSpaceSol2(s = "LeetcodeHelpsMeLearn", spaces = [8,13,15]))
