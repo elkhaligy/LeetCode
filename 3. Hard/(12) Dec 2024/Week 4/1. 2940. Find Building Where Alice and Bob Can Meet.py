@@ -13,6 +13,7 @@ class Solution:
             else:
                 new_queries[b].append((heights[a], i))
 
+        print(new_queries)
         for i in range(len(heights) - 1, -1, -1):
             mono_stack_size = len(mono_stack)
             for a, b in new_queries[i]:
@@ -36,3 +37,6 @@ class Solution:
             else:
                 right = mid - 1
         return ans
+
+sol = Solution()
+sol.leftmostBuildingQueries(heights = [6,4,8,5,2,7], queries = [[0,1],[0,3],[2,4],[3,4],[2,2]])
