@@ -5,39 +5,108 @@
 This repository contains solutions to various LeetCode problems, implemented in Python.
 
 ## My Badges
-<p align="center">
-  <b>200 Days 2024</b>
-  <br>
-  <img src="https://i.imgur.com/jrCBSMj.gif" alt="Badge 8" width="100"/>
-  <br>
-  <b>Oct 2024 Leetcoding Challange</b>
-  <br>
-  <img src="https://i.imgur.com/nDaHYbD.gif" alt="Badge 7" width="100"/>
-  <br>
-  <b>Sep 2024 Leetcoding Challange</b>
-  <br>
-  <img src="https://i.imgur.com/A1MH5sU.gif" alt="Badge 6" width="100"/>
-  <br>
-  <b>Aug 2024 Leetcoding Challange</b>
-  <br>
-  <img src="https://i.imgur.com/bz3AW66.gif" alt="Badge 5" width="100"/>
-  <br>
-  <b>100 Days Badge 2024</b>
-  <br>
-  <img src="https://i.imgur.com/oRENGzh.gif" alt="Badge 4" width="100"/>
-  <br>
-  <b>Jul 2024 Leedcoding Challange</b>
-  <br>
-  <img src="https://i.imgur.com/h4VSyeg.gif" alt="Badge 3" width="100"/>
-  <br>
-  <b>50 Days 2024</b>
-  <br>
-  <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
-  <br>
-  <b>Jun 2024 Leetcoding Challenge</b>
-  <br>
-  <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
-</p>
+<div class="badge-grid">
+    <div class="badge-item">
+        <div class="text-field">Dec 2024 Leetcoding Challenge</div>
+        <div class="image-field">
+          <img src="https://i.imgur.com/nuomCBD.gif" alt="Badge 8" width="100"/>
+        </div>
+    </div>
+    <div class="badge-item">
+        <div class="text-field">Nov 2024 Leetcoding Challenge</div>
+        <div class="image-field">
+          <img src="https://i.imgur.com/64mII0E.gif" alt="Badge 8" width="100"/>
+        </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">200 Days 2024</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/jrCBSMj.gif" alt="Badge 8" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">Oct 2024 Leetcoding Challenge</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/nDaHYbD.gif" alt="Badge 7" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">Sep 2024 Leetcoding Challenge</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/A1MH5sU.gif" alt="Badge 6" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">Aug 2024 Leetcoding Challenge</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/bz3AW66.gif" alt="Badge 5" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">100 Days Badge 2024</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/oRENGzh.gif" alt="Badge 4" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">Jul 2024 Leetcoding Challenge</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/h4VSyeg.gif" alt="Badge 3" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">50 Days 2024</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
+      </div>
+    </div>
+    <div class="badge-item">
+      <div class="text-field">Jun 2024 Leetcoding Challenge</div>
+      <div class="image-field">
+        <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
+      </div>
+    </div>
+  </div>
+  <style>
+    .badge-grid 
+    {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 20px;
+      padding: 20px;
+    }
+    .badge-item 
+    {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center;
+      border: 1px solid #899499; 
+      padding: 10px; 
+      border-radius: 8px;
+    }
+    .text-field 
+    {
+      flex: 1;
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) 
+    {
+      .badge-grid 
+      {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 480px) 
+    {
+      .badge-grid 
+      {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  </style>
 
 ## My LeetCode Profile
 Check out my [LeetCode profile](https://leetcode.com/u/elkhaligy/) for more details and statistics.
