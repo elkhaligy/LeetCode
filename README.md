@@ -5,69 +5,18 @@
 This repository contains solutions to various LeetCode problems, implemented in Python.
 
 ## My Badges
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px;">
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Dec 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/nuomCBD.gif" alt="Badge 8" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Nov 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/64mII0E.gif" alt="Badge 8" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">200 Days 2024</div>
-    <div>
-      <img src="https://i.imgur.com/jrCBSMj.gif" alt="Badge 8" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Oct 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/nDaHYbD.gif" alt="Badge 7" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Sep 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/A1MH5sU.gif" alt="Badge 6" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Aug 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/bz3AW66.gif" alt="Badge 5" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">100 Days Badge 2024</div>
-    <div>
-      <img src="https://i.imgur.com/oRENGzh.gif" alt="Badge 4" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Jul 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/h4VSyeg.gif" alt="Badge 3" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">50 Days 2024</div>
-    <div>
-      <img src="https://i.imgur.com/HRiF5xa.gif" alt="Badge 2" width="100"/>
-    </div>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #899499; padding: 10px; border-radius: 8px;">
-    <div style="flex: 1; text-align: center; margin-bottom: 10px; font-weight: bold;">Jun 2024 Leetcoding Challenge</div>
-    <div>
-      <img src="https://i.imgur.com/rd8F0yV.gif" alt="Badge 1" width="100"/>
-    </div>
-  </div>
-</div>
-
+| Badge | Description |
+|:-----:|:-----------:|
+| <img src="https://i.imgur.com/nuomCBD.gif" alt="Dec 2024 Leetcoding Challenge" width="100"/> | **Dec 2024 Leetcoding Challenge** |
+| <img src="https://i.imgur.com/64mII0E.gif" alt="Nov 2024 Leetcoding Challenge" width="100"/> | **Nov 2024 Leetcoding Challenge** |
+| <img src="https://i.imgur.com/jrCBSMj.gif" alt="200 Days 2024" width="100"/> | **200 Days 2024** |
+| <img src="https://i.imgur.com/nDaHYbD.gif" alt="Oct 2024 Leetcoding Challenge" width="100"/> | **Oct 2024 Leetcoding Challenge** |
+| <img src="https://i.imgur.com/A1MH5sU.gif" alt="Sep 2024 Leetcoding Challenge" width="100"/> | **Sep 2024 Leetcoding Challenge** |
+| <img src="https://i.imgur.com/bz3AW66.gif" alt="Aug 2024 Leetcoding Challenge" width="100"/> | **Aug 2024 Leetcoding Challenge** |
+| <img src="https://i.imgur.com/oRENGzh.gif" alt="100 Days Badge 2024" width="100"/> | **100 Days Badge 2024** |
+| <img src="https://i.imgur.com/h4VSyeg.gif" alt="Jul 2024 Leetcoding Challenge" width="100"/> | **Jul 2024 Leetcoding Challenge** |
+| <img src="https://i.imgur.com/HRiF5xa.gif" alt="50 Days 2024" width="100"/> | **50 Days 2024** |
+| <img src="https://i.imgur.com/rd8F0yV.gif" alt="Jun 2024 Leetcoding Challenge" width="100"/> | **Jun 2024 Leetcoding Challenge** |
 ## My LeetCode Profile
 Check out my [LeetCode profile](https://leetcode.com/u/elkhaligy/) for more details and statistics.
 
@@ -84,12 +33,11 @@ LeetCode/
 ├── 1. Easy/
 │   ├── Month 1/
 |       ├── Week 1/
-            ├── problem1/
-                ├── problem1.py
-                ├── problem1.md
-                └── problem1.png
-            ├── problem2.py
-            └──
+                problem1.py
+                problem1.md
+                problem1.png
+                problem2.py
+                ....
         ├── Week 2/
         └── ...
 │   ├── Month 2/
